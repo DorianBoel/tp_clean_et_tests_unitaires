@@ -5,6 +5,11 @@ public class Item {
 	private String nom;
 	private int poids;
 	
+	public Item(String nom, int poids) {
+		this.nom = nom;
+		this.poids = poids;
+	}
+	
 	/** Getter pour l'attribut nom
 	 * @return the nom
 	 */

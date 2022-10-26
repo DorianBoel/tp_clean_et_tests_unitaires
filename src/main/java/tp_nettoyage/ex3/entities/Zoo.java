@@ -47,6 +47,7 @@ public class Zoo {
 		for (ZooEnclosure enclos : enclosures) {
 			if (enclos.accepts(animal)) {
 				enclos.addAnimal(animal);
+				return;
 			}
 		}
 	}
