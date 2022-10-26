@@ -1,4 +1,4 @@
-package ex3;
+package tp_nettoyage.ex3;
 
 import java.util.List;
 

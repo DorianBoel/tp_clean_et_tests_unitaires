@@ -1,4 +1,4 @@
-package ex1;
+package tp_nettoyage.ex1;
 
 import java.util.Date;
 
