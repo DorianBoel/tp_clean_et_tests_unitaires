@@ -1,21 +1,20 @@
-package fr.diginamic.immobilier.entites;
-/** Pièce de type WC
+package tp_junit.immobilier.entites;
+/** Pièce de type salon
  * @author DIGINAMIC
  *
  */
-public class WC extends Piece {
+public class Salon extends Piece {
 
 	/** Constructeur
 	 * @param etage étage
 	 * @param superficie superficie
 	 */
-	public WC(int etage, double superficie) {
+	public Salon(int etage, double superficie) {
 		super(etage, superficie);
 	}
-	
+
 	@Override
 	public String getType() {
-		return TYPE_WC;
+		return TYPE_SALON;
 	}
-
 }

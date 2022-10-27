@@ -1,4 +1,4 @@
-package fr.diginamic.enumerations;
+package tp_junit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 
-import fr.diginamic.utils.StringUtils;
+import tp_junit.utils.StringUtils;
 
 public class Test_StringUtils {
 

@@ -1,4 +1,4 @@
-package fr.diginamic.immobilier.entites;
+package tp_junit.immobilier.entites;
 /** Représente une maison avec toutes ses pièces
  * @author DIGINAMIC
  *

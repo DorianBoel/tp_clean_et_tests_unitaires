@@ -1,4 +1,4 @@
-package fr.diginamic.utils;
+package tp_junit.utils;
 
 public class DemoStringUtils {
 

@@ -1,4 +1,4 @@
-package fr.diginamic.immobilier.entites;
+package tp_junit.immobilier.entites;
 /** Pièce de type chambre
  * @author DIGINAMIC
  *

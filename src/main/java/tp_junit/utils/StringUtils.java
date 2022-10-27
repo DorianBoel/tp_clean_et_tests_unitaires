@@ -1,4 +1,4 @@
-package fr.diginamic.utils;
+package tp_junit.utils;
 
 /**
  * Classe qui fournit des services de traitements de chaines de caractères

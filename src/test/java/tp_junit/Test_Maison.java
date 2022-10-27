@@ -1,4 +1,4 @@
-package fr.diginamic.enumerations;
+package tp_junit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertInstanceOf;
@@ -9,10 +9,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 
-import fr.diginamic.immobilier.entites.Maison;
-import fr.diginamic.immobilier.entites.Piece;
-import fr.diginamic.immobilier.entites.SalleDeBain;
-import fr.diginamic.immobilier.entites.WC;
+import tp_junit.immobilier.entites.Maison;
+import tp_junit.immobilier.entites.Piece;
+import tp_junit.immobilier.entites.SalleDeBain;
+import tp_junit.immobilier.entites.WC;
 
 public class Test_Maison {
 

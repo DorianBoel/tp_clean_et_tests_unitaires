@@ -1,9 +1,11 @@
-package fr.diginamic.enumerations;
+package tp_junit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 import org.junit.jupiter.api.Test;
+
+import tp_junit.enumerations.Saison;
 
 public class Test_Saison {
 

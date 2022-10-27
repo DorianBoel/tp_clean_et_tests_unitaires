@@ -1,4 +1,4 @@
-package fr.diginamic.enumerations;
+package tp_junit.enumerations;
 /**
  * Représente une saison et fournit les 4 instances de saisons.
  * 
