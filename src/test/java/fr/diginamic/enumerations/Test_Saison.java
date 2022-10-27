@@ -1,10 +1,11 @@
 package fr.diginamic.enumerations;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 import org.junit.jupiter.api.Test;
 
-public class Saison_Test {
+public class Test_Saison {
 
 	@Test
 	public void test_valueOfLibelle_1() {
@@ -29,7 +30,7 @@ public class Saison_Test {
 		
 		Saison result = Saison.valueOfLibelle("Autonme");
 		
-		assertEquals(result, null);
+		assertNull(result);
 		
 	}
 	
@@ -38,7 +39,7 @@ public class Saison_Test {
 		
 		Saison result = Saison.valueOfLibelle(null);
 		
-		assertEquals(result, null);
+		assertNull(result);
 		
 	}
 	
