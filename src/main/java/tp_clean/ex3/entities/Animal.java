@@ -1,13 +1,13 @@
-package tp_nettoyage.ex3.entities;
+package tp_clean.ex3.entities;
 
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import tp_nettoyage.ex3.enums.AnimalFamily;
-import tp_nettoyage.ex3.enums.Diet;
-import tp_nettoyage.ex3.enums.TraitType;
-import tp_nettoyage.ex3.interfaces.AnimalTrait;
+import tp_clean.ex3.enums.AnimalFamily;
+import tp_clean.ex3.enums.Diet;
+import tp_clean.ex3.enums.TraitType;
+import tp_clean.ex3.interfaces.AnimalTrait;
 
 /**
  * Represents an animal in a zoo.

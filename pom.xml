@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>diginamic</groupId>
-	<artifactId>tp_conventions</artifactId>
+	<artifactId>tp_clean</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>

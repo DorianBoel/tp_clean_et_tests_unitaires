@@ -1,4 +1,4 @@
-package tp_nettoyage.ex5;
+package tp_clean.ex5;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,9 +14,13 @@ public class Inventaire {
 		caisses.add(new Caisse("Grands objets", Integer.MAX_VALUE));
 	}
 
-	public void addItem(Item item) {
+	public void addItem(Item item) throws NullParamException {
 
 		//TODO Faites évoluer ce code (idée: c'est le caisse qui doit "savoir" si elle peut accepter un objet ou non)
+		
+		if (item == null) {
+			throw new NullParamException("Cannot accept null where an object is expected");
+		}
 		
 		for (Caisse caisse : caisses) {
 			if (caisse.canHold(item)) {

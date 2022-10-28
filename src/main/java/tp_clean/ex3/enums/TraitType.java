@@ -1,12 +1,12 @@
-package tp_nettoyage.ex3.enums;
+package tp_clean.ex3.enums;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import tp_nettoyage.ex3.interfaces.AnimalTrait;
-import tp_nettoyage.ex3.interfaces.Labeled;
+import tp_clean.ex3.interfaces.AnimalTrait;
+import tp_clean.ex3.interfaces.Labeled;
 
 /**
  * Enumeration listing every type of trait implementing

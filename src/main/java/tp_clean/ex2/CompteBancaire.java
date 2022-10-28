@@ -1,4 +1,4 @@
-package tp_nettoyage.ex2;
+package tp_clean.ex2;
 
 /** Représente un compte bancaire générique
  * @author DIGINAMIC

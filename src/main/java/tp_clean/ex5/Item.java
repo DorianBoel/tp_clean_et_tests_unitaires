@@ -1,4 +1,4 @@
-package tp_nettoyage.ex5;
+package tp_clean.ex5;
 
 public class Item {
 

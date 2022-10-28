@@ -1,6 +1,6 @@
-package tp_nettoyage.ex3.enums;
+package tp_clean.ex3.enums;
 
-import tp_nettoyage.ex3.interfaces.AnimalTrait;
+import tp_clean.ex3.interfaces.AnimalTrait;
 
 /**
  * Enumeration listing every type of diet 

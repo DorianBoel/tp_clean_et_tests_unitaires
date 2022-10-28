@@ -1,10 +1,10 @@
-package tp_nettoyage.ex3.entities;
+package tp_clean.ex3.entities;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import tp_nettoyage.ex3.enums.EnclosureType;
+import tp_clean.ex3.enums.EnclosureType;
 
 /**
  * Represents a zoological park establishment.

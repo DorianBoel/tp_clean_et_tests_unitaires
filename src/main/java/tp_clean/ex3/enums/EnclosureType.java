@@ -1,4 +1,4 @@
-package tp_nettoyage.ex3.enums;
+package tp_clean.ex3.enums;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,8 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import tp_nettoyage.ex3.interfaces.AnimalTrait;
-import tp_nettoyage.ex3.interfaces.Labeled;
+import tp_clean.ex3.interfaces.AnimalTrait;
+import tp_clean.ex3.interfaces.Labeled;
 
 /**
  * Enumeration listing every existing type

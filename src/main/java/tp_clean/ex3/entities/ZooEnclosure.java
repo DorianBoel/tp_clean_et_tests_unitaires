@@ -1,12 +1,12 @@
-package tp_nettoyage.ex3.entities;
+package tp_clean.ex3.entities;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import tp_nettoyage.ex3.enums.EnclosureType;
-import tp_nettoyage.ex3.enums.TraitType;
-import tp_nettoyage.ex3.interfaces.AnimalTrait;
+import tp_clean.ex3.enums.EnclosureType;
+import tp_clean.ex3.enums.TraitType;
+import tp_clean.ex3.interfaces.AnimalTrait;
 
 /**
  * Represents an enclosure to house animals within a zoo.

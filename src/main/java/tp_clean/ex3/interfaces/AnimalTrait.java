@@ -1,6 +1,6 @@
-package tp_nettoyage.ex3.interfaces;
+package tp_clean.ex3.interfaces;
 
-import tp_nettoyage.ex3.enums.TraitType;
+import tp_clean.ex3.enums.TraitType;
 
 /**
  * Interface to be implemented by enumerations

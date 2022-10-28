@@ -1,4 +1,4 @@
-package tp_nettoyage.ex3.interfaces;
+package tp_clean.ex3.interfaces;
 
 /**
  * Interface to be implemented by any enumeration

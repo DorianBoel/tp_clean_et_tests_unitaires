@@ -1,12 +1,12 @@
-package tp_nettoyage.ex3;
+package tp_clean.ex3;
 
 import java.util.Arrays;
 import java.util.List;
 
-import tp_nettoyage.ex3.entities.Animal;
-import tp_nettoyage.ex3.entities.Zoo;
-import tp_nettoyage.ex3.enums.AnimalFamily;
-import tp_nettoyage.ex3.enums.Diet;
+import tp_clean.ex3.entities.Animal;
+import tp_clean.ex3.entities.Zoo;
+import tp_clean.ex3.enums.AnimalFamily;
+import tp_clean.ex3.enums.Diet;
 
 public class ZooApplication {
 
