@@ -2,14 +2,12 @@ package fr.diginamic.recensement.services;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
 import fr.diginamic.recensement.entites.Departement;
 import fr.diginamic.recensement.entites.Recensement;
-import fr.diginamic.recensement.entites.Ville;
 import fr.diginamic.recensement.services.comparators.EnsemblePopComparateur;
 
 /**
@@ -27,18 +25,7 @@ public class RechercheDepartementsPlusPeuplees extends MenuService {
 		String nbDeptsStr = scanner.nextLine();
 		int nbDepts = Integer.parseInt(nbDeptsStr);
 
-		List<Ville> villes = recensement.getVilles();
-		Map<String, Departement> mapDepts = new HashMap<>();
-
-		for (Ville ville : villes) {
-
-			Departement departement = mapDepts.get(ville.getCodeDepartement());
-			if (departement == null) {
-				departement = new Departement(ville.getCodeDepartement());
-				mapDepts.put(ville.getCodeDepartement(), departement);
-			}
-			departement.addVille(ville);
-		}
+		Map<String, Departement> mapDepts = recensement.getDepartementMap();
 
 		List<Departement> departements = new ArrayList<Departement>();
 		departements.addAll(mapDepts.values());

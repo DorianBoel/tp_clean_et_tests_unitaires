@@ -1,7 +1,9 @@
 package fr.diginamic.recensement.entites;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 /** Données du recensement
@@ -25,5 +27,19 @@ public class Recensement {
 	 */
 	public void setVilles(List<Ville> villes) {
 		this.villes = villes;
+	}
+	
+	public Map<String, Departement> getDepartementMap() {
+		Map<String, Departement> mapDepts = new HashMap<>();
+
+		for (Ville ville : villes) {
+			Departement departement = mapDepts.get(ville.getCodeDepartement());
+			if (departement == null) {
+				departement = new Departement(ville.getCodeDepartement());
+				mapDepts.put(ville.getCodeDepartement(), departement);
+			}
+			departement.addVille(ville);
+		}
+		return mapDepts;
 	}
 }
