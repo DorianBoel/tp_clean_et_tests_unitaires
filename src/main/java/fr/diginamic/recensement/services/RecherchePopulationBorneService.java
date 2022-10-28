@@ -51,7 +51,7 @@ public class RecherchePopulationBorneService extends MenuService {
 			int max = Integer.parseInt(saisieMax.trim()) * 1000;
 			checkPositive.acceptThrows(max);
 			
-			if (min > max) {
+			if (min >= max) {
 				throw new InvalidLimitsException("La valeur maximum doit être supérieure à la valeur minimum");
 			}
 		

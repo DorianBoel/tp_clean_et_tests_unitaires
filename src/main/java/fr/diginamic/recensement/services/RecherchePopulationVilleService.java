@@ -19,13 +19,19 @@ public class RecherchePopulationVilleService extends MenuService {
 
 		System.out.println("Quel est le nom de la ville recherchée ? ");
 		String choix = scanner.nextLine();
+		boolean hasResult = false;
 
 		List<Ville> villes = rec.getVilles();
 		for (Ville ville : villes) {
 			if (ville.getNom().equalsIgnoreCase(choix)
 					|| ville.getNom().toLowerCase().startsWith(choix.toLowerCase())) {
 				System.out.println(ville);
+				hasResult = true;
 			}
+		}
+		if (!hasResult) {
+			System.out.println(String.format("Aucune ville trouvée pour '%s'", choix));
+			System.out.println();
 		}
 	}
 
